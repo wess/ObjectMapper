@@ -127,6 +127,7 @@ struct Immutable {
 
 extension Immutable: Mappable {
 	init(_ map: Map) throws {
+		
 		prop1 = try map["prop1"].valueOrFail()
 		prop2 = try map["prop2"].valueOrFail()
 		prop3 = try map["prop3"].valueOrFail()
@@ -158,13 +159,7 @@ extension Immutable: Mappable {
 	}
 	
 	mutating func mapping(map: Map) {
-		switch map.mappingType {
-		case .FromJSON:
-			if let x = try? Immutable(map) {
-				self = x
-			}
-			
-		case .ToJSON:
+		if map.mappingType == .ToJSON {
 			var prop1 = self.prop1
 			var prop2 = self.prop2
 			var prop3 = self.prop3
