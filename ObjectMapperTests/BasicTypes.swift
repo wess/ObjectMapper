@@ -234,7 +234,12 @@ class TestCollectionOfPrimitives : Mappable {
 	}
 	
 	required init(_ map: Map) throws {
-		
+		if map["value"].value() == nil {
+			
+		}
+		if map.JSONDictionary["value"] == nil {
+			
+		}
 	}
 	
 	func mapping(map: Map) {
