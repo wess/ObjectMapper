@@ -59,25 +59,25 @@ class ClassClusterTests: XCTestCase {
 	}
 }
 
-class Vehicle: Mappable {
+class Vehicle: StaticMappable {
 	
 	var type: String?
 	
-	class func objectForMapping(map: Map) -> Mappable? {
+	class func objectForMapping(map: Map) -> BaseMappable? {
 		if let type: String = map["type"].value() {
 			switch type {
 				case "car":
-					return try? Car(map)
+					return Car()
 				case "bus":
-					return try? Bus(map)
+					return Bus()
 				default:
-					return nil
+					return Vehicle()
 			}
 		}
 		return nil
 	}
 
-	required init(_ map: Map) throws {
+	init(){
 		
 	}
 	
@@ -90,7 +90,7 @@ class Car: Vehicle {
 	
 	var name: String?
 	
-	override class func objectForMapping(map: Map) -> Mappable? {
+	override class func objectForMapping(map: Map) -> BaseMappable? {
 		return nil
 	}
 	

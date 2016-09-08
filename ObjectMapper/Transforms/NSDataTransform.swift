@@ -1,8 +1,8 @@
 //
-//  URLTransform.swift
+//  NSDataTransform.swift
 //  ObjectMapper
 //
-//  Created by Tristan Himmelman on 2014-10-27.
+//  Created by Yagrushkin, Evgeny on 8/30/16.
 //
 //  The MIT License (MIT)
 //
@@ -28,39 +28,23 @@
 
 import Foundation
 
-public class URLTransform: TransformType {
-	public typealias Object = NSURL
+public class NSDataTransform: TransformType {
+	public typealias Object = NSData
 	public typealias JSON = String
-	private let shouldEncodeURLString: Bool
-
-	/**
-	Initializes the URLTransform with an option to encode URL strings before converting them to an NSURL
-	- parameter shouldEncodeUrlString: when true (the default) the string is encoded before passing
-	to `NSURL(string:)`
-	- returns: an initialized transformer
-	*/
-	public init(shouldEncodeURLString: Bool = true) {
-		self.shouldEncodeURLString = shouldEncodeURLString
-	}
-
-	public func transformFromJSON(value: AnyObject?) -> NSURL? {
-		guard let URLString = value as? String else { return nil }
-		
-		if !shouldEncodeURLString {
-			return NSURL(string: URLString)
-		}
-
-		guard let escapedURLString = URLString.stringByAddingPercentEncodingWithAllowedCharacters(
-			NSCharacterSet.URLQueryAllowedCharacterSet()) else {
+	
+	public init() {}
+	
+	public func transformFromJSON(value: AnyObject?) -> NSData? {
+		guard let string = value as? String else{
 			return nil
 		}
-		return NSURL(string: escapedURLString)
+		return NSData(base64EncodedString: string, options: [])
 	}
-
-	public func transformToJSON(value: NSURL?) -> String? {
-		if let URL = value {
-			return URL.absoluteString
+	
+	public func transformToJSON(value: NSData?) -> String? {
+		guard let data = value else{
+			return nil
 		}
-		return nil
+		return data.base64EncodedStringWithOptions([])
 	}
 }

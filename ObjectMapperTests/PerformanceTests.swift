@@ -66,10 +66,11 @@ class Person: Mappable {
 	var smoker: Bool?
 	var arr: [AnyObject] = []
 	var arrOptional: [AnyObject]?
-	var dict: [String : AnyObject] = [:]
-	var dictOptional: [String : AnyObject]?
-	var dictString: [String : String]?
-	var friendDictionary: [String : Person]?
+	var dict: [String: AnyObject] = [:]
+	var dictKey1: String?
+	var dictOptional: [String: AnyObject]?
+	var dictString: [String: String]?
+	var friendDictionary: [String: Person]?
 	var friend: Person?
 	var friends: [Person]? = []
 	
@@ -93,6 +94,7 @@ class Person: Mappable {
 		arr              <- map["arr"]
 		arrOptional      <- map["arrOpt"]
 		dict             <- map["dict"]
+		dictKey1         <- map["dict.key1"]
 		dictOptional     <- map["dictOpt"]
 		friend           <- map["friend"]
 		friends          <- map["friends"]
@@ -101,7 +103,7 @@ class Person: Mappable {
 	}
 }
 
-class PersonCluster: Mappable {
+class PersonCluster: StaticMappable {
 	
 	var username: String = ""
 	var identifier: String?
@@ -114,9 +116,10 @@ class PersonCluster: Mappable {
 	var arr: [AnyObject] = []
 	var arrOptional: [AnyObject]?
 	var dict: [String : AnyObject] = [:]
-	var dictOptional: [String : AnyObject]?
-	var dictString: [String : String]?
-	var friendDictionary: [String : Person]?
+	var dictKey1: String?
+	var dictOptional: [String: AnyObject]?
+	var dictString: [String: String]?
+	var friendDictionary: [String: Person]?
 	var friend: Person?
 	var friends: [Person]? = []
 	
@@ -124,11 +127,7 @@ class PersonCluster: Mappable {
 		
 	}
 	
-	required init(_ map: Map) throws {
-		
-	}
-	
-	static func objectForMapping(map: Map) -> Mappable? {
+	static func objectForMapping(map: Map) -> BaseMappable? {
 		return PersonCluster()
 	}
 	
@@ -144,6 +143,7 @@ class PersonCluster: Mappable {
 		arr              <- map["arr"]
 		arrOptional      <- map["arrOpt"]
 		dict             <- map["dict"]
+		dictKey1         <- map["dict.key1"]
 		dictOptional     <- map["dictOpt"]
 		friend           <- map["friend"]
 		friends          <- map["friends"]

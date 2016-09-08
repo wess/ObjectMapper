@@ -38,7 +38,7 @@ public protocol MapContext {
 public final class Map {
 	public let mappingType: MappingType
 	
-	public internal(set) var JSONDictionary: [String : AnyObject] = [:]
+	public internal(set) var JSONDictionary: [String: AnyObject] = [:]
 	public internal(set) var isKeyPresent = false
 	public var currentValue: AnyObject?
 	public var context: MapContext?
@@ -208,7 +208,7 @@ private func valueFor(keyPathComponents: ArraySlice<String>, dictionary: [String
 		let object = dictionary[keyPath]
 		if object is NSNull {
 			return (true, nil)
-		} else if let dict = object as? [String : AnyObject] where keyPathComponents.count > 1 {
+		} else if let dict = object as? [String: AnyObject] where keyPathComponents.count > 1 {
 			let tail = keyPathComponents.dropFirst()
 			return valueFor(tail, dictionary: dict)
 		} else if let array = object as? [AnyObject] where keyPathComponents.count > 1 {
@@ -241,7 +241,7 @@ private func valueFor(keyPathComponents: ArraySlice<String>, array: [AnyObject])
 			} else if let array = object as? [AnyObject] where keyPathComponents.count > 1 {
 				let tail = keyPathComponents.dropFirst()
 				return valueFor(tail, array: array)
-			} else if let dict = object as? [String : AnyObject] where keyPathComponents.count > 1 {
+			} else if let dict = object as? [String: AnyObject] where keyPathComponents.count > 1 {
 				let tail = keyPathComponents.dropFirst()
 				return valueFor(tail, dictionary: dict)
 			} else {
