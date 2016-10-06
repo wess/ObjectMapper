@@ -1,0 +1,136 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DateTransform"
+provides-nominal:
+- "C10Transforms13DateTransform"
+provides-member:
+- ["C10Transforms13DateTransform", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "TransformType"
+- !private "TimeInterval"
+- "Double"
+- !private "String"
+- "DateTransform"
+- "CastingPrecedence"
+- "Date"
+- !private "atof"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "Date"]
+- !private ["Ps9AnyObject", "Double"]
+- ["Ps9AnyObject", "JSON"]
+- ["Ps9AnyObject", "Object"]
+- !private ["Ps9AnyObject", "TimeInterval"]
+- !private ["Ps9AnyObject", "atof"]
+- ["Ps9AnyObject", "transformFromJSON"]
+- ["Ps9AnyObject", "transformToJSON"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "timeIntervalSince1970"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- !private ["Ps28CustomDebugStringConvertible", "timeIntervalSince1970"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "timeIntervalSince1970"]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "some"]
+- !private ["Ps17CustomReflectable", "timeIntervalSince1970"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "timeIntervalSince1970"]
+- ["V10Foundation4Date", "deinit"]
+- !private ["V10Foundation4Date", "init"]
+- !private ["V10Foundation4Date", "timeIntervalSince1970"]
+- ["C10Transforms13DateTransform", "Date"]
+- ["C10Transforms13DateTransform", "Double"]
+- ["C10Transforms13DateTransform", "JSON"]
+- ["C10Transforms13DateTransform", "Object"]
+- !private ["C10Transforms13DateTransform", "String"]
+- !private ["C10Transforms13DateTransform", "TimeInterval"]
+- !private ["C10Transforms13DateTransform", "atof"]
+- ["C10Transforms13DateTransform", "deinit"]
+- ["C10Transforms13DateTransform", "init"]
+- ["C10Transforms13DateTransform", "transformFromJSON"]
+- ["C10Transforms13DateTransform", "transformToJSON"]
+- ["Sd", "deinit"]
+- !private ["Sd", "init"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "timeIntervalSince1970"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "timeIntervalSince1970"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- ["Sq", "deinit"]
+- ["Sq", "some"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "timeIntervalSince1970"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "init"]
+- ["SS", "deinit"]
+- !private ["P10Transforms13TransformType", "Date"]
+- !private ["P10Transforms13TransformType", "Double"]
+- ["P10Transforms13TransformType", "JSON"]
+- ["P10Transforms13TransformType", "Object"]
+- !private ["P10Transforms13TransformType", "TimeInterval"]
+- !private ["P10Transforms13TransformType", "atof"]
+- ["P10Transforms13TransformType", "transformFromJSON"]
+- ["P10Transforms13TransformType", "transformToJSON"]
+- ["P10Transforms13TransformType", ""]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "timeIntervalSince1970"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "timeIntervalSince1970"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "V10Foundation4Date"
+- "C10Transforms13DateTransform"
+- "Sd"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- !private "Ps13FloatingPoint"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- "Sq"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "SS"
+- "P10Transforms13TransformType"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+interface-hash: "88f6f0d2e25ef865b06aca47d8c69c8c"

@@ -1,0 +1,61 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EnumTransform"
+provides-nominal:
+- "C10Transforms13EnumTransform"
+provides-member:
+- ["C10Transforms13EnumTransform", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "TransformType"
+- "RawRepresentable"
+- "EnumTransform"
+- "CastingPrecedence"
+depends-member:
+- ["Ps9AnyObject", "JSON"]
+- ["Ps9AnyObject", "Object"]
+- !private ["Ps9AnyObject", "T"]
+- ["Ps9AnyObject", "transformFromJSON"]
+- ["Ps9AnyObject", "transformToJSON"]
+- ["Ps9AnyObject", ""]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- ["Ps17CustomReflectable", "some"]
+- ["C10Transforms13EnumTransform", "JSON"]
+- ["C10Transforms13EnumTransform", "Object"]
+- ["C10Transforms13EnumTransform", "T"]
+- ["C10Transforms13EnumTransform", "deinit"]
+- ["C10Transforms13EnumTransform", "init"]
+- ["C10Transforms13EnumTransform", "transformFromJSON"]
+- ["C10Transforms13EnumTransform", "transformToJSON"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- ["Sq", "deinit"]
+- ["Sq", "some"]
+- ["Ps16RawRepresentable", "RawValue"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- ["P10Transforms13TransformType", "JSON"]
+- ["P10Transforms13TransformType", "Object"]
+- !private ["P10Transforms13TransformType", "T"]
+- ["P10Transforms13TransformType", "transformFromJSON"]
+- ["P10Transforms13TransformType", "transformToJSON"]
+- ["P10Transforms13TransformType", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps28CustomDebugStringConvertible"
+- "Ps17CustomReflectable"
+- "C10Transforms13EnumTransform"
+- "Ps23ExpressibleByNilLiteral"
+- "Sq"
+- "Ps16RawRepresentable"
+- "P10Transforms13TransformType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+interface-hash: "4b86ed93096023bf0e000a8a9ba8c67f"

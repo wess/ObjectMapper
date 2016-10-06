@@ -1,0 +1,15 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "f284289ba3aa123f0a2ce6dcc2bd0cea"
+build_time: [529093511, 989638000]
+inputs:
+  "/Users/wess/Development/OpenSource/ObjectMapper/Sources/Transforms/CustomDateFormatTransform.swift": [529092625, 0]
+  "/Users/wess/Development/OpenSource/ObjectMapper/Sources/Transforms/DataTransform.swift": [529092625, 0]
+  "/Users/wess/Development/OpenSource/ObjectMapper/Sources/Transforms/DateFormatterTransform.swift": [529092625, 0]
+  "/Users/wess/Development/OpenSource/ObjectMapper/Sources/Transforms/DateTransform.swift": [529092625, 0]
+  "/Users/wess/Development/OpenSource/ObjectMapper/Sources/Transforms/DictionaryTransform.swift": !dirty [529092625, 0]
+  "/Users/wess/Development/OpenSource/ObjectMapper/Sources/Transforms/EnumTransform.swift": [529092625, 0]
+  "/Users/wess/Development/OpenSource/ObjectMapper/Sources/Transforms/ISO8601DateTransform.swift": [529092625, 0]
+  "/Users/wess/Development/OpenSource/ObjectMapper/Sources/Transforms/NSDecimalNumberTransform.swift": [529092625, 0]
+  "/Users/wess/Development/OpenSource/ObjectMapper/Sources/Transforms/TransformOf.swift": [529092625, 0]
+  "/Users/wess/Development/OpenSource/ObjectMapper/Sources/Transforms/TransformType.swift": [529092625, 0]
+  "/Users/wess/Development/OpenSource/ObjectMapper/Sources/Transforms/URLTransform.swift": [529092625, 0]

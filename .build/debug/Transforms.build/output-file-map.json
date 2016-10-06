@@ -1,0 +1,71 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/master.swiftdeps"
+  },
+  "/Users/wess/Development/OpenSource/ObjectMapper/Sources/Transforms/CustomDateFormatTransform.swift": {
+    "dependencies": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/CustomDateFormatTransform.d",
+    "object": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/CustomDateFormatTransform.swift.o",
+    "swiftmodule": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/CustomDateFormatTransform~partial.swiftmodule",
+    "swift-dependencies": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/CustomDateFormatTransform.swiftdeps"
+  },
+  "/Users/wess/Development/OpenSource/ObjectMapper/Sources/Transforms/DataTransform.swift": {
+    "dependencies": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/DataTransform.d",
+    "object": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/DataTransform.swift.o",
+    "swiftmodule": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/DataTransform~partial.swiftmodule",
+    "swift-dependencies": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/DataTransform.swiftdeps"
+  },
+  "/Users/wess/Development/OpenSource/ObjectMapper/Sources/Transforms/DateFormatterTransform.swift": {
+    "dependencies": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/DateFormatterTransform.d",
+    "object": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/DateFormatterTransform.swift.o",
+    "swiftmodule": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/DateFormatterTransform~partial.swiftmodule",
+    "swift-dependencies": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/DateFormatterTransform.swiftdeps"
+  },
+  "/Users/wess/Development/OpenSource/ObjectMapper/Sources/Transforms/DateTransform.swift": {
+    "dependencies": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/DateTransform.d",
+    "object": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/DateTransform.swift.o",
+    "swiftmodule": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/DateTransform~partial.swiftmodule",
+    "swift-dependencies": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/DateTransform.swiftdeps"
+  },
+  "/Users/wess/Development/OpenSource/ObjectMapper/Sources/Transforms/DictionaryTransform.swift": {
+    "dependencies": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/DictionaryTransform.d",
+    "object": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/DictionaryTransform.swift.o",
+    "swiftmodule": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/DictionaryTransform~partial.swiftmodule",
+    "swift-dependencies": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/DictionaryTransform.swiftdeps"
+  },
+  "/Users/wess/Development/OpenSource/ObjectMapper/Sources/Transforms/EnumTransform.swift": {
+    "dependencies": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/EnumTransform.d",
+    "object": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/EnumTransform.swift.o",
+    "swiftmodule": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/EnumTransform~partial.swiftmodule",
+    "swift-dependencies": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/EnumTransform.swiftdeps"
+  },
+  "/Users/wess/Development/OpenSource/ObjectMapper/Sources/Transforms/ISO8601DateTransform.swift": {
+    "dependencies": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/ISO8601DateTransform.d",
+    "object": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/ISO8601DateTransform.swift.o",
+    "swiftmodule": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/ISO8601DateTransform~partial.swiftmodule",
+    "swift-dependencies": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/ISO8601DateTransform.swiftdeps"
+  },
+  "/Users/wess/Development/OpenSource/ObjectMapper/Sources/Transforms/NSDecimalNumberTransform.swift": {
+    "dependencies": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/NSDecimalNumberTransform.d",
+    "object": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/NSDecimalNumberTransform.swift.o",
+    "swiftmodule": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/NSDecimalNumberTransform~partial.swiftmodule",
+    "swift-dependencies": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/NSDecimalNumberTransform.swiftdeps"
+  },
+  "/Users/wess/Development/OpenSource/ObjectMapper/Sources/Transforms/TransformOf.swift": {
+    "dependencies": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/TransformOf.d",
+    "object": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/TransformOf.swift.o",
+    "swiftmodule": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/TransformOf~partial.swiftmodule",
+    "swift-dependencies": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/TransformOf.swiftdeps"
+  },
+  "/Users/wess/Development/OpenSource/ObjectMapper/Sources/Transforms/TransformType.swift": {
+    "dependencies": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/TransformType.d",
+    "object": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/TransformType.swift.o",
+    "swiftmodule": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/TransformType~partial.swiftmodule",
+    "swift-dependencies": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/TransformType.swiftdeps"
+  },
+  "/Users/wess/Development/OpenSource/ObjectMapper/Sources/Transforms/URLTransform.swift": {
+    "dependencies": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/URLTransform.d",
+    "object": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/URLTransform.swift.o",
+    "swiftmodule": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/URLTransform~partial.swiftmodule",
+    "swift-dependencies": "/Users/wess/Development/OpenSource/ObjectMapper/.build/debug/Transforms.build/URLTransform.swiftdeps"
+  }
+}
